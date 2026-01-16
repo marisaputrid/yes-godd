@@ -1,194 +1,40 @@
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8"></meta>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"></meta>
-  <title>Foto Auto Scroll Premium</title>
+<<!-- Tombol Play Button -->
+<div style="text-align:center; margin:20px 0;">
+  <a href="https://casmdere23.blogspot.com/2026/01/mom-smiled-sweetly.html" 
+     class="play-button" target="_blank">
+    ▶ Play Video
+  </a>
+</div>
 
-  <style>
-  /* Banner di atas */
-  .banner {
-    margin-top: 10px;
-    text-align: center;
-  }
+<!-- Tombol Play Button -->
+<div style="text-align:center; margin:20px 0;">
+  <a href="https://heartlessanthemantiquity.com/vyprhgu5yr?key=ab6fa8db83138f6390015e94961cf774" 
+     class="play-button" target="_blank">
+    ▶ Play Video 2
+  </a>
+</div>
 
-  /* Container utama */
-  .container {
-    margin-top: 10px;
-    text-align: center;
-    position: relative;
-  }
-
-  /* Foto utama */
-  .container img {
-    width: 60%;
-    max-width: 600px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
-
-  .container img:hover {
-    transform: scale(1.03);
-  }
-
-  /* Tombol Play Video */
-  .play-button {
-    display: inline-block;
-    margin-top: 8px;
-    background-color: #ff3b3b;
-    color: white;
-    padding: 6px 16px;
-    border-radius: 25px;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 14px;
-    transition: background-color 0.3s, transform 0.3s;
-	font-size: 18px;
-  font-weight: 600;
-  border: none;
- 
-  padding: 14px 28px;
-  cursor: pointer;
-  transition: 0.3s;
-  width: 100%;
-  max-width: 400px; /* biar gak terlalu besar di desktop */
-  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
-  }
-
-  .play-button:hover {
-    background-color: #e12d2d;
-    transform: scale(1.05);
-	box-shadow: 0 6px 18px rgba(0, 123, 255, 0.4);
-  transform: scale(1.02);
-  
-  }
-.play-btn:active {
-  transform: scale(0.98);
+<!-- CSS -->
+<style>
+.play-button {
+  display: inline-block;
+  background-color: #ff0000; /* warna merah ala tombol video */
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-  /* Scroll foto di bawah */
-  .scroll-wrapper {
-    position: relative;
-    margin-top: 20px;
-    overflow: hidden; /* ✅ biar blur dan panah tetap rapi */
-  }
-
-  .scroll-container {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 10px;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    scroll-behavior: smooth;
-  }
-  .scroll-container::-webkit-scrollbar {
-    display: none;
-  }
-
-  .scroll-item {
-    flex: 0 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-right: 15px;
-  }
-
-  .scroll-container img {
-    width: 160px;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
-
-  .scroll-container img:hover {
-    transform: scale(1.05);
-  }
-
-  /* Tombol panah kiri-kanan */
-  .arrow {
-    position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.3);
-    color: white;
-    font-size: 28px;
-    padding: 8px 14px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background 0.3s;
-    z-index: 3;
-    pointer-events: auto; /* ✅ biar bisa diklik */
-  }
-
-  .arrow:hover {
-    background: rgba(0, 0, 0, 0.5);
-  }
-
-  .arrow-left {
-    left: 10px;
-  }
-
-  .arrow-right {
-    right: 10px;
-  }
-
-  /* Efek blur kiri-kanan */
-  .blur-left,
-  .blur-right {
-    position: absolute;
-    top: 0;
-    width: 80px;
-    height: 100%;
-    z-index: 2;
-    pointer-events: none; /* ✅ biar nggak ganggu klik */
-  }
-
-  .blur-left {
-    left: 0;
-    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
-  }
-
-  .blur-right {
-    right: 0;
-    background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
-  }
+.play-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  background-color: #cc0000; /* efek hover */
+}
 </style>
-
-</head>
-<body>
-
-  
-
-  <div class="container">
-    <!-- Foto utama -->
-    
-    <!-- Tombol Play Video utama -->
-    <div>
-      <a class="play-button" href=" https://t.co/2Kmo1HIcAF">▶ Play Video</a>
-    </div>
-
-  <div class="container">
-  <a class="play-button" href="https://t.co/mQPPjXzlRT" target="_blank"> ▶ Video 1 🎬📲 ▶️ Play Video</a>
-  </div></div></body> 
-
-
-  <div class="container">
-  <a class="play-button" href="https://t.co/6ShERQBTuw" target="_blank">    Video 2 🎬📲 ▶️ Play Video  </a>
-</div>
-   <div class="container">
-  <a class="play-button" href="https://t.co/cvSgBpd0Ns" target="_blank">   Video 3 🎬📲 ▶️ Play Video</a>
-</div>
-
-<div class="container">
-  <a class="play-button" href="https://t.co/2OcMq7eLps" target="_blank">   Video 4 🎬📲 ▶️ Play Video</a>
-</div>
-
 
 <!-- Histats.com  START  (aync)-->
 <script type="text/javascript">var _Hasync= _Hasync|| [];
@@ -200,5 +46,12 @@ var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async
 hs.src = ('//s10.histats.com/js15_as.js');
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
 })();</script>
-<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4176394&101" alt="web site hit counter" border="0"></a></noscript>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4176394&101" alt="free html hit counter" border="0"></a></noscript>
 <!-- Histats.com  END  -->
+
+
+     
+
+  
+
+ 
